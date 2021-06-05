@@ -1,7 +1,7 @@
 module.exports = async (Discord, client, member) => {
     let cwelcome = member.guild.channels.cache.find(c => c.name === 'pending' || c.name === 'lobby' || c.name === 'welcome' || c.name === 'welcome-goodbye')
     let role = member.guild.roles.cache.find(r => r.name === 'pending' || r.name === 'Pending')
-    var verifiedrole = ["Member", 'member', 'verified', 'Verified']
+    var verifiedrole = ["Member", 'member', 'verified', 'Verified', 'Bots', 'Administrator', 'Moderator']
     let invite = cwelcome.createInvite({ maxAge: 0, maxUsers: 0})
 
     
