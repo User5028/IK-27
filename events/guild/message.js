@@ -18,11 +18,11 @@ module.exports = async (Discord, client, message) => {
         let messageAttachment = message.attachments.size > 0 ? message.attachments.array()[0].url : null
         const args = message.content.split(/ +/);
         const query = args.join(" ");
-        const eschannel = message.guild.channels.cache.get('844268890104004628');
-        const brchannel = message.guild.channels.cache.get('844268890104004628');
-        const dechannel = message.guild.channels.cache.get('844268890104004628');
-        const ruchannel = message.guild.channels.cache.get('844268890104004628');
-        const frchannel = message.guild.channels.cache.get('844268890104004628');
+        const eschannel = message.guild.channels.cache.get('842546956295208990');
+        const brchannel = message.guild.channels.cache.get('842547400057159710');
+        const dechannel = message.guild.channels.cache.get('842548316599353377');
+        const ruchannel = message.guild.channels.cache.get('842547217650941983');
+        const frchannel = message.guild.channels.cache.get('842547706181320715');
         if(query){
 
 
@@ -81,16 +81,16 @@ module.exports = async (Discord, client, message) => {
             await eschannel.send(messageAttachment)
         }
     }
-    //King-rules
+    //King-news
     if(message.channel.id === '841531696474095647') {
         let messageAttachment = message.attachments.size > 0 ? message.attachments.array()[0].url : null
         const args = message.content.split(/ +/);
         const query = args.join(" ");
-        const eschannel = message.guild.channels.cache.get('844268890104004628');
-        const brchannel = message.guild.channels.cache.get('844268890104004628');
-        const dechannel = message.guild.channels.cache.get('844268890104004628');
-        const ruchannel = message.guild.channels.cache.get('844268890104004628');
-        const frchannel = message.guild.channels.cache.get('844268890104004628');
+        const eschannel = message.guild.channels.cache.get('842550513563861002');
+        const brchannel = message.guild.channels.cache.get('842550697924755467');
+        const dechannel = message.guild.channels.cache.get('842551009289175100');
+        const ruchannel = message.guild.channels.cache.get('842550175725387786');
+        const frchannel = message.guild.channels.cache.get('842549678667202590');
         if(query){
 
 
@@ -154,11 +154,11 @@ module.exports = async (Discord, client, message) => {
         let messageAttachment = message.attachments.size > 0 ? message.attachments.array()[0].url : null
         const args = message.content.split(/ +/);
         const query = args.join(" ");
-        const eschannel = message.guild.channels.cache.get('844268890104004628');
-        const brchannel = message.guild.channels.cache.get('844268890104004628');
-        const dechannel = message.guild.channels.cache.get('844268890104004628');
-        const ruchannel = message.guild.channels.cache.get('844268890104004628');
-        const frchannel = message.guild.channels.cache.get('844268890104004628');
+        const eschannel = message.guild.channels.cache.get('842172297095675934');
+        const brchannel = message.guild.channels.cache.get('842186702860320778');
+        const dechannel = message.guild.channels.cache.get('842174857596895233');
+        const ruchannel = message.guild.channels.cache.get('842163280637853736');
+        const frchannel = message.guild.channels.cache.get('842582047460687873');
         if(query){
 
 
